@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+    <title>Apple Range</title>
+  </head>
+  <style>
+     .container-fluid {
+    background-color: rgb(54, 85, 157);
+  }
+  .navbar-brand {
+    color: aliceblue;
+  }    
+  .flex-sm-fill {
+    color: #4b4846;
+    background-color: black;
+  }
+    .gallery{
+    width: 95vw;
+    height: 70vmin;
+    display: flex;
+    gap: 5px;
+    margin-top: 10%;
+    margin-left: 30px;
+  }
+  .gallery img{
+    height: 100%;
+    flex: 1;
+    object-fit: cover;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 0.3s;
+  }
+  .gallery img:hover{
+    flex: 4;
+  }
+  .img1 {
+    margin-top: 5%;
+  }
+  .img2 {
+    height: 690px;
+    padding-left: 25%;
+    margin-top: 4%;
+  }
+  .img3 {
+    height: 500px;
+    padding-left: 30%;
+    margin-top: 9%;
+  }
+  .img4 {
+    width: 100%;
+    margin-top: 7%;
+  }
+  .card-group {
+    margin-top: 7%;
+    padding: 3%;
+  }
+  .card {
+    padding-top: 7%;
+    margin-top: 5%;
+  }
+ 
+ </style>
+  <body>
+    <nav class="navbar navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand">Apple Assortiment</a>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    <nav class="nav nav-pills flex-column flex-sm-row">
+      <a class="flex-sm-fill text-sm-center nav-link" href="index1.html">Main Page</a>
+      <a class="flex-sm-fill text-sm-center nav-link" href="#">Shop</a>
+      <a class="flex-sm-fill text-sm-center nav-link" href="index2.html">Abour Founders</a>
+      <a class="flex-sm-fill text-sm-center nav-link" href="#">Other devices</a>
+    </nav>
+      <div class="gallery">
+        <img src="https://www.istore.kg/media/products/MQEE3_VW_34FRwatch-49-titanium-ultra_VW_34FR_WF_COwatch-face-49-ocean-ultra_VW_vKKcX3M.webp" alt=""/>
+        <img src="https://www.istore.kg/media/products/MQEG3ref_VW_34FRwatch-49-titanium-ultra_VW_34FR_WF_COwatch-face-49-trail-ultra_CA7Sncd.webp" alt=""/>
+        <img src="https://www.istore.kg/media/products/ML753_VW_34FRwatch-41-stainless-silver-cell-8s_VW_34FR_WF_CO.webp" alt=""/>
+        <img src="https://www.istore.kg/media/products/ML7R3_VW_34FRwatch-41-stainless-gold-cell-8s_VW_34FR_WF_CO.webp" alt=""/>
+        <img src="https://www.istore.kg/media/products/MPLQ3ref_VW_34FRwatch-40-alum-starlight-nc-se_VW_34FR_WF_CO.webp" alt=""/>
+        <img src="https://www.istore.kg/media/products/MPLN3ref_VW_34FRwatch-41-alum-midnight-nc-8s_VW_34FR_WF_CO.webp" alt=""/>
+        <img src="https://www.istore.kg/media/products/MQDY3ref_VW_34FRwatch-49-titanium-ultra_VW_34FR_WF_COwatch-face-49-alpine-ultr_BiLg9B6.webp" alt=""/>
+      </div>
+    <div>
+      <img class="img1" src="https://images.macrumors.com/t/UKIGuuQQsQjcmq-EriWfUNNbWC4=/1600x900/smart/article-new/2021/10/Apple-Watch-Series-7-Rainbow-Crop-Blue.jpg">
+    </div>
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img class="img3" src="https://www.apple.com/v/apple-watch-se/j/images/overview/hero/hero__fmx18j9bq0ya_large.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5></h5>
+            <p></p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img class="img2" src="https://www.apple.com/newsroom/images/tile-images/Apple_watch_series_5_introduces-always-on-retina-display_091019.jpg.news_app_ed.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Which Apple Watch is right for you?</h5>
+            <p>Apple Watch essentials</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="img2" src="https://www.apple.com/newsroom/images/product/watch/lifestyle/Apple_announces-watch-se_09152020.jpg.news_app_ed.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5></h5>
+            <p></p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div>
+      <img class="img4" src="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1240w,f_auto,q_auto:best/newscms/2020_38/3412891/apple-watch-6-kr-2x1-tease-200917.jpg">
+    </div>
+    <div class="card-group">
+      <div class="card">
+        <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/FG123?wid=2000&hei=2000&fmt=jpeg&qlt=95&.v=1614983666000" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Sport Pink Band</h5>
+          <p class="card-text">Ideal for sports and everyday life.</p>
+          <p class="card-text"><small class="text-muted">29$</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/F09D3?wid=2000&hei=2000&fmt=jpeg&qlt=95&.v=1615321088000" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Sport White Band</h5>
+          <p class="card-text">Ideal for sports and everyday life</p>
+          <p class="card-text"><small class="text-muted">29$</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/FG133?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1614983667000" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Sport Black Band</h5>
+          <p class="card-text">Ideal for sports and everyday life</p>
+          <p class="card-text"><small class="text-muted">29$</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/F09A3?wid=2000&hei=2000&fmt=jpeg&qlt=95&.v=1615321061000" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Sport Pink Band</h5>
+          <p class="card-text">Ideal for sports and everyday life.</p>
+          <p class="card-text"><small class="text-muted">29$</small></p>
+        </div>
+      </div>
+    </div>
+    <div class="card-group">
+      <div class="card">
+        <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/grid-nike-sport-band-black-black-s8?wid=540&hei=662&fmt=jpeg&qlt=90&.v=1660787354386" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Breathable Bands</h5>
+          <p class="card-text"></p>Sweat-free bands</p>
+          <p class="card-text"><small class="text-muted">29$</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/grid-nike-sport-band-alpine-white-black-s8?wid=540&hei=662&fmt=jpeg&qlt=90&.v=1660787354392" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Breathable Bands</h5>
+          <p class="card-text">Sweat-free bands</p>
+          <p class="card-text"><small class="text-muted">29$</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/grid-nike-sport-band-olive-gray-black-s8?wid=540&hei=662&fmt=jpeg&qlt=90&.v=1660787358646" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Breathable Bands</h5>
+          <p class="card-text">Sweat-free bands</p>
+          <p class="card-text"><small class="text-muted">29$</small></p>
+        </div>
+      </div>
+    </div>
+    <div class="card bg-dark text-white">
+      <img src="https://jabko.ua/image/catalog/products/2022/09/101927/health_hero__dvilvmsurp26_large%20(1).jpg" class="card-img" alt="...">
+      <div class="card-img-overlay">
+        <h5 class="card-title">Apple Store</h5>
+        <p class="card-text">Free delivery within the city. By region from $50 and above.</p>
+        <p class="card-text"></p>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

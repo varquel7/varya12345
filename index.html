@@ -1,0 +1,280 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+    <title>Apple</title>
+  </head>
+  <style>
+    
+    .container-fluid {
+    background-color: rgb(67, 67, 67);
+  }
+  .navbar-brand {
+    color: aliceblue;
+  }    
+  .flex-sm-fill {
+    color: #4b4846;
+    background-color: black;
+  }
+ 
+  .carousel-inner {
+    padding-left: 30%;
+    margin-bottom: 15%;
+  }
+  .d-block {
+    padding-top: 0%;
+  }
+  .image {
+    padding-top: 1%;
+    width: 100%;
+    height: 20%;
+  }
+  .image2 {
+    padding-top: 13%;
+    width: 100%;
+    height: 40%;
+  }
+  .card-img-top1 {
+    padding-top: 7%;
+  }
+  .ultra {
+    background-color: transparent;
+    color: #e77a0c;
+    font-weight: 400;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 16px 36px;
+    border: 2px solid #e77a0c;
+    border-radius: 32px;
+    transform: translate(0);
+    overflow: hidden;
+    cursor: pointer;
+    margin-left: 38%;
+    margin-top: 3%;
+  }
+  .ultra::before {
+    content: "";
+    position: absolute;
+    background: #e77a0c;
+    width: 8px;
+    top: 0;
+    bottom: 0;
+    left: -32px;
+    transform: rotate(-16deg);
+    filter: blur(6px);
+    
+  }
+  .ultra:hover::before {
+    left: calc(100% + 32px);
+    transition: 1s;
+  }
+  .gallery{
+    width: 95vw;
+    height: 70vmin;
+    display: flex;
+    gap: 5px;
+    margin-top: 10%;
+    margin-left: 30px;
+  }
+  .gallery img{
+    height: 100%;
+    flex: 1;
+    object-fit: cover;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 0.3s;
+  }
+  .gallery img:hover{
+    flex: 4;
+  }
+  .card3 {
+    margin: 5%;
+    padding-left: 3%;
+    border: 2px solid #2d2d2d;
+    text-align: center;
+    background-color: #242323;
+    width: 90%;
+    margin-right: 20%;
+  }
+  .card-body {
+    color: white;
+  }
+  .blockquote {
+    color: white;
+  }
+  .blockquote-footer {
+    color: white;
+  }
+  .card-header {
+    color: white;
+  }
+  .card-img-top {
+    height: 850px;
+  }
+  .card-title {
+    color: black;
+  }
+  .card-text {
+    color: black;
+  }
+ .icons {
+  font-size: 58px;
+  padding: 8%;
+  margin-left: 35%;
+  margin-top: 15%;
+ }
+
+ a {
+  text-decoration: none;
+ }
+
+.bi-youtube{
+  color: red;
+  
+}
+.bi-twitter {
+  color: rgb(25, 166, 221);
+ 
+}
+.bi-instagram {
+  color: crimson;
+
+}
+  </style>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <body>
+    <nav class="navbar navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand">Apple Watch</a>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    <nav class="nav nav-pills flex-column flex-sm-row">
+      <a class="flex-sm-fill text-sm-center nav-link" href="#">Delivery</a>
+      <a class="flex-sm-fill text-sm-center nav-link" href="index3.html">Assortiment</a>
+      <a class="flex-sm-fill text-sm-center nav-link" href="index2.html">Abour Founders</a>
+      <a class="flex-sm-fill text-sm-center nav-link" href="#">Other devices</a>
+    </nav>
+      <div class="gallery">
+        <img  src="https://i.pinimg.com/564x/6e/2c/d4/6e2cd4c95d916de3fdce60a1c7ec6c7e.jpg" alt=""/>
+        <img src="https://i.pinimg.com/564x/73/7d/29/737d2974ac191d3835bf7f4065eadad7.jpg" alt=""/>
+        <img src="https://i.pinimg.com/564x/67/11/12/671112c5bce27c7d016ff2ae7c47c685.jpg" alt=""/>
+        <img src="https://i.pinimg.com/564x/c4/d3/62/c4d362bf88dc27a340fdb8d227629bbd.jpg" alt=""/>
+        <img src="https://i.pinimg.com/564x/df/85/a6/df85a6a10cffdb2700762314e9527b64.jpg" alt=""/>
+        <img src="https://i.pinimg.com/564x/9b/ba/4a/9bba4ab252874929367eac05226548aa.jpg" alt=""/>
+        <img src="https://i.pinimg.com/564x/08/72/ec/0872ecda6bb29b3f88d3d80d02fe47aa.jpg" alt=""/>
+      </div>
+    
+      <img class="image2" src="./ббб (2).png" >
+      <button class="ultra">Watch Ultra</button>
+      <div class="card" style="width: 18rem;">
+        <img src="https://login.kg/image/catalog/new/Aksessuary/Apple/Chasy/Watch%20Ultra/apple-watch-ultra-1.jpg" class="card-img-top1" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">NEW!</h5>
+          <p class="card-text">Apple Watch Ultra</p>
+          <a href="https://www.apple.com/lae/watch/" class="btn btn-primary">More about 'Ultra'</a>
+        </div>
+      </div>
+      <div class="card3">
+        <div class="card-header">
+          Apple Watch
+        </div>
+        <div class="card-body">
+          <blockquote class="blockquote mb-0">
+            <p>With the largest display</p>
+            <footer class="blockquote-footer">more than 50% <cite title="Source Title">increase in viewing area compared to Series3.</cite></footer>
+          </blockquote>
+        </div>
+      </div>
+     
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="buttonn" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="buttonn" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="buttonn" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://www.refurbished.be/cache/images/apple-watch-series-7-41mm-blauw-blauw-front_600x600_BGresize_16777215-tj.png" class="d-block w-85" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.refurbished.fr/cache/images/apple-watch-series-7-45mm-midnight-blauw-front_600x600_BGresize_16777215-tj.png" class="d-block w-85" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.refurbished.be/cache/images/apple-watch-series-se-40mm-goud-wit-front_600x600_BGresize_16777215-tj.png" class="d-block w-40" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>  
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://i.pinimg.com/564x/e7/6c/35/e76c35058cdfe7462cba2570f60e0972.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Other New Apple products <i class="bi bi-apple"></i></h5>
+              <p class="card-text">AirPods Pro</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">249$</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://i.pinimg.com/564x/e8/92/99/e89299e60ad5ab5352de01f1536856df.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Other New Apple products <i class="bi bi-apple"></i></h5>
+              <p class="card-text">Iphone 14 ProMax</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">1 199,00$</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://cdn.wallpapersafari.com/87/49/w2VTox.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Other New Apple products <i class="bi bi-apple"></i></h5>
+              <p class="card-text">MacBook Pro</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">1299$</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="icons">
+      <link>
+      <a href="https://www.instagram.com/apple/">
+        <i class="bi-instagram bi-instagram"></i>
+      </a>
+      <a href="https://www.youtube.com/user/Apple">
+        <i class="bi-youtube bi-youtube"></i>
+      </a>
+      <a href="https://twitter.com/apple">
+      <i class="bi-twitter bi-twitter"></i>
+      </a>
+      </div>
+      <img class="image" src="https://www.apple.com/newsroom/images/product/watch/standard/Apple-Watch-S8-2up-hero-220907_Full-Bleed-Image.jpg.large.jpg" >
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+           
+</body>
+</html> 
+
+
